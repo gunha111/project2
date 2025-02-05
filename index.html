@@ -3,33 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Ninja History</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Explore Lyra's world, a fusion of nature and technology, focused on synthetic ecology.">
+    <title>Lyra - Synthetic Ecology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
+    <!-- Header Section -->
     <header>
-        <h1>History of the Ninja</h1>
+        <div class="logo">
+            <img src="lyra-logo.png" alt="Lyra Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-        <div id="ninja-container"></div>
-        <section class="info">
-            <h2>Origins of Ninjas</h2>
-            <p>Ninjas, also known as Shinobi, were covert agents in feudal Japan. They specialized in espionage, guerrilla warfare, and assassination.</p>
-        </section>
-        <section class="info">
-            <h2>Skills & Tactics</h2>
-            <p>Ninjas mastered stealth, disguise, and martial arts. They used shurikens, katanas, and various secret techniques.</p>
-        </section>
-        <section class="info">
-            <h2>Modern Influence</h2>
-            <p>Today, ninjas are popular in movies, games, and anime. Their legacy continues in modern martial arts and pop culture.</p>
-        </section>
-    </main>
 
-    <script src="three.min.js"></script>
-    <script src="GLTFLoader.js"></script>
-    <script src="script.js"></script>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h1>Lyra: Balancing Nature & Technology</h1>
+            <p>Join Lyra in exploring the balance between ecological harmony and technological innovation.</p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+        <div class="hero-image">
+            <img src="lyra-avatar.png" alt="Lyra Avatar">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Lyra</h2>
+        <p>Lyra represents a fusion of synthetic ecology, using technology to restore and protect nature. She walks a path between the digital and organic world, where innovation meets sustainability.</p>
+        <a href="#vision" class="btn">Learn about the Vision</a>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision">
+        <h2>The Vision: Synthetic Ecology</h2>
+        <p>Lyra believes in sustainable technology—innovations that can restore our ecosystems and forge a better, more balanced world. Explore her philosophies through virtual landscapes and tech-driven environmental solutions.</p>
+        <a href="#community" class="btn">Get Involved</a>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <h3>Restoring Balance: How Tech Can Help the Environment</h3>
+                <p>Read more about how synthetic ecology is paving the way for a greener future.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Tech Innovations for Eco-Friendly Cities</h3>
+                <p>Discover the latest tech innovations that are making our cities more sustainable.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community">
+        <h2>Join the Community</h2>
+        <p>Lyra believes in the power of collective action. Together, we can create a world where technology and nature coexist. Join us in the movement.</p>
+        <a href="#">Get Involved</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Lyra Ecosystems. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
 </body>
 </html>
